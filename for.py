@@ -32,9 +32,31 @@
 # print("El promedio es ",round (prom))
 
 
-cant=int(input("ingrese la cantidad de numeros "))
-suma=0
-for i in range(cant):
-   n1=int(input("ingrese la nota "))
-   suma+=n1
-print("La suma de todos los numeros es ",suma)
+# cant=int(input("ingrese la cantidad de numeros "))
+# suma=0
+# for i in range(cant):
+#    n1=int(input("ingrese la nota "))
+#    suma+=n1
+# print("La suma de todos los numeros es ",suma)
+
+
+# frase=input("ingrese una frase ")
+# cantcar=0
+# v=0
+# cons=0
+# e=0
+# for i in frase:
+#     print(i)
+#     cantcar+=1
+
+#     if i in "aeiouAEIOU":
+#       v+=1
+#     elif i==" ":
+#        e+=1
+#     else:
+#        cons+=1
+    
+
+# print(f"el total de caracteres es {cantcar}")
+# print(f"el total de vocales es {v}")
+# print(f"el total de cons es {cons}")

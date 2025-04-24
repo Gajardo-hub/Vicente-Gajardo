@@ -9,8 +9,8 @@
 
 # print("Hola", nombre,"tu edad es",edad)
 
-print("ingrese 2 numeros")
+# print("ingrese 2 numeros")
 
-n1=int(input())
-n2=int(input())
-print("El resultado de la suma es", n1+n2) 
+# n1=int(input())
+# n2=int(input())
+# print("El resultado de la suma es", n1+n2) 

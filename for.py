@@ -60,3 +60,8 @@
 # print(f"el total de caracteres es {cantcar}")
 # print(f"el total de vocales es {v}")
 # print(f"el total de cons es {cons}")
+
+
+# from random import randint
+# a=randint(1,100) 
+# print(f"el numero generado es {a}" )

@@ -59,5 +59,15 @@
 
 
 
-# EJERCICIO 4
+from random import randint
+num=int(input("ingrese un numero "))
+num2=int(input("ingrese un numero mayor al primero "))
 
+
+if num>=num2:
+    print("Error, el numero es menor al numero 2")
+else:
+    print(f"su numero es {num} y {num2}")
+numr=randint(num,num2)
+
+print("▄ "*numr)

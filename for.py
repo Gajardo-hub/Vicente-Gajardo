@@ -67,3 +67,34 @@
 # print(f"el numero generado es {a}" )
 
 
+# PERROS DE CASA 
+
+# import random 
+
+# while True:
+#  try:
+#   per=int(input("Cuantos perros van a cazar?: "))
+#   break
+#  except ValueError:
+#    print("Error, ingrese un numero entero")
+
+# resumen=[]
+
+# print(f"Saldras {per} perros.")
+# print("Cada perro debe traer minimo 3 conejos.")
+
+# for i in range (per):
+#     cone=random.randint(0,5)
+    
+#     print(f"El perro {i+1} trajo {cone} conejos")
+#     if cone>=3:
+#      print("buen perrito, tiene filete.")
+#      resumen.append(f"El perro {i+1} cumplio.")
+#     else:
+#      print("mal perrito, no filete >:(.")
+#      resumen.append(f"El perro {i+1} NO cumplio.")
+
+# print("\nResumen:")
+# for r in resumen:
+#   print(r)
+

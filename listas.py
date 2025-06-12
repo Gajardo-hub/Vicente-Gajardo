@@ -99,4 +99,36 @@
 #             print("Selecciona una opcion valida")
         
         
-        
+# notas=[]
+
+# while True:
+#     print('''Programa de notas
+#           1.- Ingrese sus notas
+#           2.- Borrar nota
+#           3.- Mostrar  notas
+#           4.- Sacar promedio, nota mayor y nota menor
+#           5.- Limpiar TODAS las notas
+#           6.- Salir ''')
+#     op=int(input("Seleccione una opcion: "))
+#     match op:
+#         case 1:
+#             nota=float(input("Ingrese nota: "))
+#             notas.append(nota)
+#         case 2:
+#             for i in range(len(notas)):
+#               print(f"{i+1}.- {notas[i]}")
+#             elim=int(input("Ingrese la nota a eliminar: "))
+#             notas.pop(elim-1)
+#             print("Nota eliminada.")
+#         case 3:
+#             print(notas)
+#         case 4:
+#             print(f"su promedio es {sum(notas)/len(notas)}\n su nota mayor es {max(notas)} y su nota menor es {min(notas)}")
+#         case 5:
+#             notas.clear()
+#             print("las notas fueron eliminadas")
+#         case 6:
+#             print("Saliendo...")
+#             break
+#         case _:
+#             print("Seleccione una opcion valida")
